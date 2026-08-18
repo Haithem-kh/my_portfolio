@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280">
+  <rect width="400" height="280" fill="#15151A"/>
+  <rect x="16" y="16" width="368" height="248" fill="none" stroke="#D4AF37" stroke-width="1.5" opacity="0.5"/>
+  <circle cx="200" cy="110" r="28" fill="none" stroke="#D4AF37" stroke-width="2"/>
+  <path d="M188 110l8 8 16-18" stroke="#D4AF37" stroke-width="2" fill="none"/>
+  <text x="200" y="180" text-anchor="middle" fill="#EDEAE2" font-family="JetBrains Mono,monospace" font-size="13">CERTIFICATE</text>
+  <text x="200" y="200" text-anchor="middle" fill="#6E6C68" font-family="JetBrains Mono,monospace" font-size="10">add yours in src/data/career.ts</text>
+</svg>
