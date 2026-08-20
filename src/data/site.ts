@@ -14,26 +14,26 @@ export const PROFILE = {
 };
 
 export const NAV_LINKS: NavLink[] = [
-  { label: "Home",         href: "home" },
-  { label: "About",        href: "about" },
-  { label: "Projects",     href: "projects" },
-  { label: "Skills",       href: "skills" },
-  { label: "Experience",   href: "experience" },
-  { label: "Education",    href: "education" },
+  { label: "Home", href: "home" },
+  { label: "About", href: "about" },
+  { label: "Projects", href: "projects" },
+  { label: "Skills", href: "skills" },
+  { label: "Experience", href: "experience" },
+  { label: "Education", href: "education" },
   { label: "Certificates", href: "certificates" },
-  { label: "Resume",       href: "resume" },
-  { label: "Contact",      href: "contact" },
+  { label: "Resume", href: "resume" },
+  { label: "Contact", href: "contact" },
 ];
 
 export const SOCIAL_LINKS: SocialLink[] = [
-  { label: "GitHub",   href: "https://github.com/Haithem-kh",             icon: "github" },
-  { label: "LinkedIn", href: "https://linkedin.com/in/haithem-khachlouf", icon: "linkedin" },
-  { label: "Email",    href: "mailto:haithamkhachlouf@gmail.com",          icon: "mail" },
+  { label: "GitHub", href: "https://github.com/Haithem-kh", icon: "github" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/haithem-khachlouf-043913292", icon: "linkedin" },
+  { label: "Email", href: "mailto:haithamkhachlouf@gmail.com", icon: "mail" },
 ];
 
 export const STATS: Stat[] = [
-  { label: "Years of Experience",    value: 3,  suffix: "+" },
-  { label: "AI / LLM Projects",      value: 6,  suffix: "+" },
-  { label: "Agent Memory Systems",   value: 6,  suffix: "" },
-  { label: "Technologies Mastered",  value: 32, suffix: "+" },
+  { label: "Months of Industry Experience", value: 7, suffix: "+" },
+  { label: "AI / LLM Projects", value: 6, suffix: "+" },
+  { label: "Agent Memory Systems", value: 6, suffix: "" },
+  { label: "Technologies Mastered", value: 32, suffix: "+" },
 ];

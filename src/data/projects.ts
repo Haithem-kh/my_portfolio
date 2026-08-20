@@ -3,34 +3,12 @@ import type { Project } from "../types";
 export const PROJECTS: Project[] = [
   {
     id: "p1",
-    slug: "planforge-agent",
-    title: "PlanForge-Agent",
-    tagline: "Turns a business idea into a structured plan and investor-ready 10-slide pitch deck — fully automated.",
-    description:
-      "A 3-agent pipeline (market research → business planning → pitch deck generation) orchestrated asynchronously via the a2a SDK. Each agent specialises in one stage: the researcher gathers market context, the planner structures the business model, and the deck generator produces a formatted 10-slide PDF ready for investors.",
-    image: "/images/projects/planforge.svg",
-    category: "AI / Agentic Systems",
-    tech: ["Python", "a2a SDK", "Google Gemini", "Asyncio", "FPDF"],
-    features: [
-      "3-agent async pipeline with clear role separation",
-      "Orchestrated via a2a SDK agent-to-agent communication",
-      "Market research agent with automatic query refinement",
-      "Business planning agent producing structured model",
-      "Pitch deck agent generating investor-ready 10-slide PDF",
-    ],
-    githubUrl: "https://github.com/Haithem-kh",
-    featured: true,
-    status: "Production",
-    year: "2025",
-  },
-  {
-    id: "p2",
     slug: "memory-augmented-multi-agent-llm",
     title: "Memory-Augmented Multi-Agent LLM Framework",
     tagline: "A complete memory framework for LLM agents — 6 memory systems, benchmarked against baselines.",
     description:
       "Final-year project at KPIT Engineering. Designed and implemented 6 distinct memory systems (Working, Semantic, Episodic, Procedural, Associative, Knowledge-Base) inside a LangGraph-based agentic framework for automated automotive test case generation. Exposed via CLI, REST API, and UI with sync/async/batch execution modes.",
-    image: "/images/projects/memory-framework.svg",
+    image: "/images/projects/memory-framework.jpg",
     category: "AI / Agentic Systems",
     tech: ["Python", "LangGraph", "LangChain", "OpenAI", "FAISS", "Docker", "FastAPI"],
     features: [
@@ -41,8 +19,30 @@ export const PROJECTS: Project[] = [
       "Containerised with Docker for reproducible deployment",
     ],
     githubUrl: "https://github.com/Haithem-kh",
+    featured: true,
     status: "Production",
     year: "2026",
+  },
+  {
+    id: "p2",
+    slug: "planforge-agent",
+    title: "PlanForge-Agent",
+    tagline: "Turns a business idea into a structured plan and investor-ready 10-slide pitch deck — fully automated.",
+    description:
+      "A 3-agent pipeline (market research → business planning → pitch deck generation) orchestrated asynchronously via the a2a SDK. Each agent specialises in one stage: the researcher gathers market context, the planner structures the business model, and the deck generator produces a formatted 10-slide PDF ready for investors.",
+    image: "/images/projects/planforge.jpg",
+    category: "AI / Agentic Systems",
+    tech: ["Python", "a2a SDK", "Google Gemini", "Asyncio", "FPDF"],
+    features: [
+      "3-agent async pipeline with clear role separation",
+      "Orchestrated via a2a SDK agent-to-agent communication",
+      "Market research agent with automatic query refinement",
+      "Business planning agent producing structured model",
+      "Pitch deck agent generating investor-ready 10-slide PDF",
+    ],
+    githubUrl: "https://github.com/Haithem-kh",
+    status: "Production",
+    year: "2025",
   },
   {
     id: "p3",
@@ -51,7 +51,7 @@ export const PROJECTS: Project[] = [
     tagline: "Multi-agent research system generating structured corporate reports across 8 analysis dimensions in real time.",
     description:
       "Talan Challenge winner. A LangGraph/LangChain research orchestration system that coordinates multiple agents to produce structured corporate intelligence reports covering financials, operations, tech stack, ESG, and 4 more dimensions. A FastAPI backend streams results to a React dashboard.",
-    image: "/images/projects/corporate-intel.svg",
+    image: "/images/projects/corporate-intel.jpg",
     category: "AI / Agentic Systems",
     tech: ["Python", "LangGraph", "LangChain", "FastAPI", "React", "Google Gemini"],
     features: [
@@ -71,7 +71,7 @@ export const PROJECTS: Project[] = [
     tagline: "Full-stack AI platform for reverse-engineering competitor market strategies.",
     description:
       "Contributed during an AI internship at Talan Tunisia to RevMA — an AI-based market reverse-engineering platform. Designed the Targeting Agent and multi-agent workflow, built the FastAPI backend, and assisted with the Next.js/TypeScript frontend and PostgreSQL/MongoDB database layer.",
-    image: "/images/projects/revma.svg",
+    image: "/images/projects/revma.jpg",
     category: "Full-Stack",
     tech: ["Python", "FastAPI", "Google Gemini Pro", "Next.js", "TypeScript", "PostgreSQL", "MongoDB"],
     features: [
@@ -91,7 +91,7 @@ export const PROJECTS: Project[] = [
     tagline: "Multi-agent simulation environment studying emergent cleaning behaviour and dirt dynamics.",
     description:
       "A multi-agent simulation where agents with probabilistic behaviours interact within a grid environment. The system models agent-environment interactions, tracks dirt dynamics, and visualises emergent collective cleaning patterns through simulation analysis.",
-    image: "/images/projects/cleangrid.svg",
+    image: "/images/projects/cleangrid.jpg",
     category: "AI / Agentic Systems",
     tech: ["Python", "NumPy", "Matplotlib", "Random"],
     features: [
@@ -111,7 +111,7 @@ export const PROJECTS: Project[] = [
     tagline: "Enterprise-grade employee management system with Spring Boot and Angular.",
     description:
       "An internship project at TFM (Tunisia Fleet Management). A full enterprise web application for managing employee records, built with a Spring Boot REST backend and Angular frontend, with a focus on clean API design and reliability.",
-    image: "/images/projects/employee-mgmt.svg",
+    image: "/images/projects/employee-mgmt.jpg",
     category: "Full-Stack",
     tech: ["Spring Boot", "Angular", "PostgreSQL", "REST API", "Java"],
     features: [

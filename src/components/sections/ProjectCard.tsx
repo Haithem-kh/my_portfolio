@@ -46,12 +46,10 @@ export function ProjectCard({ project, featured = false }: { project: Project; f
               <ArrowUpRight size={14} /> Live Demo
             </a>
           )}
-          {project.featured && (
-            <Link to={`/projects/${project.slug}`}
-              className="inline-flex items-center gap-1.5 text-xs font-medium text-gold hover:text-gold-glow transition-colors ml-auto">
-              <FileText size={14} /> Case Study
-            </Link>
-          )}
+          <Link to={`/projects/${project.slug}`}
+            className="inline-flex items-center gap-1.5 text-xs font-medium text-gold hover:text-gold-glow transition-colors ml-auto">
+            <FileText size={14} /> Case Study
+          </Link>
         </div>
       </div>
     </motion.article>

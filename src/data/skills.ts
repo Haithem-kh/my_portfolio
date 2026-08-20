@@ -24,7 +24,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
     id: "programming",
     title: "Programming Languages",
     icon: "Code2",
-    skills: ["Python", "C++", "Java", "PHP", "JavaScript", "SQL"],
+    skills: ["Python", "C++", "Java", "C", "PHP", "JavaScript", "SQL"],
   },
   {
     id: "backend",
@@ -42,19 +42,19 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
     id: "databases",
     title: "Databases",
     icon: "Database",
-    skills: ["PostgreSQL", "MongoDB", "SQLite", "SSMS"],
+    skills: ["PostgreSQL", "MongoDB", "SQLite", "SSMS", "Neo4j"],
   },
   {
     id: "tools",
     title: "Tools & DevOps",
     icon: "Terminal",
-    skills: ["Git", "GitHub", "Docker", "Streamlit", "VS Code", "IntelliJ IDEA"],
+    skills: ["Git", "GitHub", "Docker", "Streamlit", "VS Code", "IntelliJ IDEA", "Jupyter Notebook"],
   },
   {
     id: "data",
     title: "Data & BI",
     icon: "BarChart2",
-    skills: ["Power BI", "SSIS", "Hadoop"],
+    skills: ["Power BI", "SSIS", "Hadoop", "Talend"],
   },
   {
     id: "blockchain",
