@@ -81,7 +81,7 @@ export function Hero() {
           <div className="relative">
             <div className="absolute -inset-4 rounded-full border border-gold/20" />
             <div className="absolute -inset-10 rounded-full border border-gold/10" />
-            <img src="/images/profile/avatar.svg" alt={PROFILE.name}
+            <img src="/images/profile/avatar.jpg" alt={PROFILE.name}
               className="h-72 w-72 rounded-full object-cover border border-border" />
           </div>
         </motion.div>

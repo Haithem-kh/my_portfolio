@@ -31,7 +31,6 @@ export function Certificates() {
             </motion.button>
           ))}
         </motion.div>
-        <p className="mt-6 font-mono text-xs text-bone-faint">// Add your certifications in <span className="text-gold">src/data/career.ts</span></p>
       </div>
       <AnimatePresence>
         {active && (
